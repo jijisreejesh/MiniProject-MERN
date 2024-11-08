@@ -1,0 +1,40 @@
+ .lbl{
+    display: block;
+    width: 180px;
+    padding-top: 10px;
+}
+.asideDiv{
+    background-color: rgb(17, 42, 229);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#form{
+width: 400px;
+padding: 30px;
+margin-left: auto;
+margin-right: auto;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+background-color: aqua;
+margin-top: 30px;
+}
+.formDiv{
+    background-color: brown;
+    text-align: center;
+}
+.aside {
+   
+    font-size: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    color: aliceblue;
+
+}
+#sectionBtn{
+    display: flex;
+    gap: 20px;
+}
