@@ -9,7 +9,7 @@ button{
   border-radius: 10px;
   width: 80px;
   background-color: blue;
-  border: none;
+  border: transparent;
   color: white;
   padding: 3px;
   font-size: large;
@@ -17,4 +17,5 @@ button{
 button:active{
   background-color: aliceblue;
   color: blue;
+  border: transparent;
 }

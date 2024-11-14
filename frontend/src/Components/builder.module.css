@@ -1,0 +1,23 @@
+
+#form{
+    margin-top: 20px;
+    padding: 20px;
+    background-color: aqua;
+} 
+
+fieldset{
+
+    border: solid 1px blue;
+}
+legend{
+    text-align: center;
+}
+fieldset .commonDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#headline{
+    text-align: center;
+    overflow-y: hidden;
+}

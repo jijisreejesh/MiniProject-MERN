@@ -1,40 +1,49 @@
- .lbl{
-    display: block;
-    width: 180px;
-    padding-top: 10px;
+.row1 {
+  background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
 }
-.asideDiv{
-    background-color: rgb(17, 42, 229);
+.row1 img{
+    padding-top: 5px;
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+}
+.row1 p{
+  float: inline-end;
+ color:rgb(68, 8, 124)
+}
+.lbl {
+  display: block;
+  width: 180px;
+  padding-top: 10px;
+  color: rgb(226, 234, 5);
+}
+#form {
+  width: 400px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+}
+.formDiv,.asideDiv{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-#form{
-width: 400px;
-padding: 30px;
-margin-left: auto;
-margin-right: auto;
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-background-color: aqua;
-margin-top: 30px;
-}
-.formDiv{
-    background-color: brown;
-    text-align: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+    background-repeat: repeat;
+    background-size: 50px 50px;
+  background-image: url('../Images/portfolio-icon-for-background.jpg');
+  background-color: rgb(10, 10, 123);
+  background-blend-mode: darken;
 }
 .aside {
-   
-    font-size: 2em;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bolder;
-    color: aliceblue;
-
+  font-size: 2em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+  color: rgb(226, 178, 21);
 }
-#sectionBtn{
-    display: flex;
-    gap: 20px;
+#sectionBtn {
+  display: flex;
+  gap: 20px;
 }
